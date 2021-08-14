@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/Lucas-Dinelli/Store_Architecture_Microservice.git

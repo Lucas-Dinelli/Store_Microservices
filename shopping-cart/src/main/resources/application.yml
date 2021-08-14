@@ -1,0 +1,11 @@
+spring:
+
+  config:
+    import: "optional:configserver:"
+
+  application:
+    name: shopping-cart
+
+  cloud:
+    config:
+      uri: http://localhost:8888
